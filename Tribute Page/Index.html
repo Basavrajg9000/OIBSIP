@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute page</title>
+    <style>
+		
+		body {
+			background-color: #b5bda6;
+			margin: 20%;
+		}
+
+		
+		#title {
+			text-align: center;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+
+		img {
+			display: inline-block;
+			width: 100%;
+		}
+
+	
+		#caption {
+			font-size: 25px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+			color: rgb(68, 41, 143);
+		}
+
+		div#tribute-data {
+			background-color: rgb(46, 139, 87, 0.25);
+			box-shadow: 20px 20px 20px #98FB98;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+		h1.title-Srinivasa{
+			font-size: 35px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+		}
+
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+	
+    </style>
+</head>
+<body>
+    <main id="main">
+
+		<!-- Title of the page -->
+		<h1 id="title">
+			Srinivasa Ramanujan
+		</h1>
+
+		<div id="img">
+
+			
+			<img src="data:image/jpeg;base64,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" id="image"
+				alt="Error Loading Image">
+			<small id="caption">
+				 Indian mathematician whose contributions to 
+                 the theory of number includes pioneering 
+                 discoveries of the properties of the 
+                 partion function.
+			</small>
+		</div>
+
+		<div id="tribute-data">
+
+			
+			<h1 class="title-Srinivasa">
+				About the Great Mathematician 
+			</h1>
+
+			
+
+<p>
+				☛ srinivasa ramanuja was born on 22 dec 1887-26 april 1920
+                was an indian mathematician who lived during british rule in india .<br><br>
+				☛ He almost had no formal traning in pure mathematics ,he made substantial contribution 
+                to mathmatics analysis , number , theory infinite series, and continued fraction .<br><br>
+				☛ Ramanuja initially developed his own mathematics research in isolation 
+                according to Hans Eysenck: "He tried to interest the leading professional mathematicians in his work, but failed for the most part. What he had to show them was too novel, too unfamiliar, and additionally presented in unusual ways; they could not be bothered.<br><br>
+				☛ Seeking mathematicians who could better understand his work, in 1913 he began a postal correspondence with the English mathematician G. H. Hardy at the University of Cambridge, England.
+				<br><br> 
+                ☛  Recognising Ramanujan's work as extraordinary, Hardy arranged for him to travel to Cambridge. In his notes, Hardy commented that Ramanujan had produced groundbreaking new theorems, including some that "defeated me completely; I had never seen anything in the least like them before and some recently proven but highly advanced results
+				<br><br>
+                 ☛ In 1903, when he was 16, Ramanujan obtained from a friend a library copy of A Synopsis of Elementary Results in Pure and Applied Mathematics, G. S. Carr's collection of 5,000 theorems. Ramanujan reportedly studied the contents of the book in detail. The book is generally acknowledged as a key element in awakening his genius.
+				<br><br>
+                 ☛ The next year, Ramanujan independently developed and investigated the Bernoulli numbers and calculated the Euler–Mascheroni constant up to 15 decimal places.His peers at the time said they "rarely understood him" and "stood in respectful awe" of him.
+				<br><br>
+                 ☛ When he graduated from Town Higher Secondary School in 1904, Ramanujan was awarded the K. Ranganatha Rao prize for mathematics by the school's headmaster, Krishnaswami Iyer. Iyer introduced Ramanujan as an outstanding student who deserved scores higher than the maximum
+				<br><br> 
+                ☛ In 1910, after a meeting between the 23-year-old Ramanujan and the founder of the Indian Mathematical Society, V. Ramaswamy Aiyer, Ramanujan began to get recognition in Madras's mathematical circles, leading to his inclusion as a researcher at the University of Madras.
+				<br><br>
+                 ☛ In 1910, Ramanujan met deputy collector V. Ramaswamy Aiyer, who founded the Indian Mathematical Society. Wishing for a job at the revenue department where Aiyer worked, Ramanujan showed him his mathematics notebooks. As Aiyer later recalled:
+                 I was struck by the extraordinary mathematical results contained in [the notebooks]. I had no mind to smother his genius by an appointment in the lowest rungs of the revenue department.
+				<br><br>
+                 ☛ Ramanujan has been described as a person of a somewhat shy and quiet disposition, a dignified man with pleasant manners. He lived a simple life at Cambridge. Ramanujan's first Indian biographers describe him as a rigorously orthodox Hindu. He credited his acumen to his family goddess, Namagiri Thayar (Goddess Mahalakshmi) of Namakkal.
+				<br><br>
+                 ☛ Hardy cites Ramanujan as remarking that all religions seemed equally true to him.Hardy further argued that Ramanujan's religious belief had been romanticised by Westerners and overstated—in reference to his belief, not practice—by Indian biographers. At the same time, he remarked on Ramanujan's strict vegetarianism
+				<br><br>
+                 ☛ In mathematics, there is a distinction between insight and formulating or working through a proof. Ramanujan proposed an abundance of formulae that could be investigated later in depth. G. H. Hardy said that Ramanujan's discoveries are unusually rich and that there is often more to them than initially meets the eye.
+				<br><br>
+                 ☛Although there are numerous statements that could have borne the name Ramanujan conjecture, one was highly influential on later work. In particular, the connection of this conjecture with conjectures of André Weil in algebraic geometry opened up new areas of research
+				<br><br>
+                 ☛ Ramanujan was plagued by health problems throughout his life. His health worsened in England; possibly he was also less resilient due to the difficulty of keeping to the strict dietary requirements of his religion there and because of wartime rationing in 1914–18. He was diagnosed with tuberculosis and a severe vitamin deficiency, and confined to a sanatorium. In 1919, he returned to Kumbakonam, Madras Presidency, and in 1920 he died at the age of 32
+				<br><br> >
+			</p>
+
+
+		</div>
+		<br>
+		 For more information,
+		check out
+		<a id="tribute-link" href="#">
+			<b>Srinivasa Ramanujan   </b> on Wikipedia. [
+			<small>Developed by @<a href="#">
+					basavraj Gadade.</a></a>
+		</small>]
+	</main>
+</body>
+</html>
